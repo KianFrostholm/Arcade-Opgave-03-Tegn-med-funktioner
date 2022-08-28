@@ -1,0 +1,31 @@
+#+title: Tegn med funktioner
+
+Formålet med opgaven er at kunne definere egne funktioner. Dette skal gøre det nemmere at forstå og genbruge koden flere gange. I kan tage udgangspunkt i jeres opgave omkring simpel tegning i =arcade=, eller I kan begynde på et helt nyt projekt. I begge tilfælde skal der, som bekendt, tegnes "rigtige" billeder vha. geometriske figurer.
+
+I forrige opgave kunne I f.eks. tegne et juletræ, ved at tegne trekanter eller lignende oven på hinanden. I denne opgave skal I så i stedet definere en funktion, f.eks. ~tegn_juletræ(x, y, farve=arcade.css.color.GREEN)~, som kan tegne det samme billede af et juletræ som sidst, men hvor det kan placeres forskellige steder på skærmen, og der nemt kan tegnes flere af det samme juletræ uden at kopiere hele koden for hver juletræ.
+
+På de følgende figurer kan I se, hvordan de samme komplekse figurer er blevet tegnet flere steder på skærmen.
+
+[[./img/blomstereng_eksempel.png]]
+
+[[./img/hus_og_biler_eksempel.png]]
+
+[[./img/under_vand_eksempel.gif]]
+
+* Tjekliste for selve opgaven
+- Husk at oprette og køre en =__main__= funktion.
+- Definér og kǿr mindst 3 funktioner, som tegner forskellige elementer.
+- Sørg for at jeres funktioner tegner komplekse figurer. Ingen point én linjes-funktioner. Ingen point for at kopiere funktioner fra eksempler.
+- Få point for at skabe mange linjes-funktioner, som tegner komplekse sammenhængende figurer.
+- Få point for at tilføre x og y som argumenter/parametre til funktionerne, så billederne kan tegnes forskellige steder på skærmen.
+- Sørg for at kalde mindst én af jeres egne funktioner flere gange og med forskellige placeringer på skærmen.
+- Sørg for at jeres egne funktioner *centrerer* jeres komplekse figurer omkring (x, y), som er argumenter til jeres funktioner.
+
+ 
+* Dobbelttjek
+
+- Når I opretter funktioner, så gør det efter ~import~ i starten af filen.
+- Hver funktion skal stå for sig selv med ~def~.
+- Undlad at have en ~def~ inden i anden ~def~.
+- Sørg for at I har mindst *3* funktioner, som tager *(x, y)* som argumenter.
+- Når I skal tjekke, om jeres funktioner tegner figurer centreret omkring (x, y), så tegn en prik (måske en lille cirkel) ved det samme (x, y) efterfølgende. Hvis prikken ligger ca i centrum af figuren, så er alt godt. Hvis prikken ligger langt fra figurens centrum, så må I til at skrive jeres funktion om, så figuren bliver gencentreret.
